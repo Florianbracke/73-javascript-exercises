@@ -1,6 +1,6 @@
 /* becode/javascript
  *
- * /10-asynchronous/02-get-comments/script.js - 10.2: chargement d'articles et de commentaires
+ * /10-asynchronous/03-handling-errors/script.js - 10.3: gestion d'erreur
  *
  * coded by leny@BeCode
  * started at 09/05/2019
