@@ -6,8 +6,9 @@
 // The $.post() method loads data from the server using a HTTP POST request.
 
 (() => {
-document.getElementById("run").addEventListener("click", function(){});
-
-window.lib.getPosts(function(error,articles) {
-console.log(error, articles)})
-})();
+    document.getElementById("run").addEventListener("click", function(){
+        window.lib.getPosts(function(error,articles) {
+        console.log(error, articles) 
+        } )
+    }
+)})();

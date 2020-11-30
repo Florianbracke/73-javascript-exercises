@@ -8,7 +8,7 @@ let text = document.getElementById("target").innerHTML;
 let textSplit = text.split("");
 document.getElementById("target").innerHTML = textSplit;
 
-textSplit.forEach(element => ;
+textSplit.forEach(element => );
 
 // function paperBackWriter (){
 // } 
