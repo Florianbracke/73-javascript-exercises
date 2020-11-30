@@ -12,12 +12,17 @@
 (() => {
     document.getElementById("run").addEventListener("click", function(){
         window.lib.getPosts(function(error,articles) {
-            console.log(error, articles)
+            articles.forEach((post) => {
+                window.lib.getComments(post.id, function(error, comments) {
+                    console.log(error, comments);
+
+                });
+                
             })
-            indow.lib.getComments(post-id, (error, comments), function (){
-            console.log("test")
+            })
+            
         })
     })
-})();
+();
 
   
