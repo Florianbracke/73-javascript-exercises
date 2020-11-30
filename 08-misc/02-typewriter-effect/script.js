@@ -11,7 +11,7 @@ document.getElementById("target").innerHTML = textSplit;
 textSplit.forEach(element => ;
 
 // function paperBackWriter (){
-// }
+// } 
 const randomNumberArray = [];
 
 while (randomNumberArray.length < 44)
