@@ -1,16 +1,48 @@
-/* becode/javascript
- *
- * /07-misc/02-typewriter-effect/script.js - 7.2: effet machine à écrire
- *
- * coded by leny@BeCode
- * started at 26/10/2018
- */
+// setTimeout(function changeText() {
+//    var typeText = document.getElementById("target").innerHTML = ;
+//    var 
+// }, randomNumber);;;;;;;;;;;;;wdwd;s'pw;s;da'wpd  +
 
-// NOTE: don't focus on the existing code structure for now.
-// You will have time to focus on it later.
 
-(function() {
+let text = document.getElementById("target").innerHTML;
+let textSplit = text.split("");
+document.getElementById("target").innerHTML = textSplit;
 
-    // your code here
+textSplit.forEach(element => ;
 
-})();
+// function paperBackWriter (){
+// }
+const randomNumberArray = [];
+
+while (randomNumberArray.length < 44)
+{let randomNumber = Math.floor(Math.random() * 3000);
+randomNumberArray.push(randomNumber);}
+
+
+//for( var i = 0; i < textSplit.length; i++ )
+
+// for (var i=0; i<44; i++) {
+//     randomNumberArray1.push(randomNumber);}
+//     console.timeLog(randomNumberArray1)
+
+// var randomNumberArray2 = Math.floor(Math.random() * 3000);
+// var randomNumberArray3 = Math.floor(Math.random() * 3000);
+// var randomNumberArray4 = Math.floor(Math.random() * 3000);
+
+
+
+
+
+
+
+
+
+//timeoutevent random time-> add next index of textSplit array onto "target"
+// random numbers in array steken!
+
+
+
+
+
+// console.log(textSplit.length);
+// console.log(randomNumber);

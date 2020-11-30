@@ -1,6 +1,6 @@
 setTimeout(myWave, 2000);
 
- myWave = () = {
+ myWave = () => {
 
    //select target and make it into an array
     const target = document.getElementById("target");
@@ -9,7 +9,7 @@ setTimeout(myWave, 2000);
    //array of fonts to be paired with dotArray 
     let font = ["10px", "20px", "30px", "40px", "50px"];
     
-   //for loop to arrange fonts by size (it matters)
+   //for loop to arrange fonts by size (i       t matters)
     
     var i;
     for (i = 0; i < font.length; i++) {
@@ -17,7 +17,7 @@ setTimeout(myWave, 2000);
     }
   
    //forEach index dotArray select font
-    dotArray.forEach(element => item.style.fontSizOpne = font[i]);
+    dotArray.forEach(dotArray => item.style.fontSizOpne = font[i]);
 
 
 
