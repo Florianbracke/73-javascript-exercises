@@ -15,7 +15,11 @@ function myFunction(){
     const keys = ["name", "species", "age", "gender", "color"];
     const values = ["Skitty", "cat", 9, "female", "tabby"];
     
-    
-   
+    const objectsArray = [];
+
+    keys.forEach((item,index) =>  objectsArray.push([item, values[index]]));
+    console.log(objectsArray)
+    const object = Object.fromEntries(objectsArray);
+    console.log(object);
 };
 

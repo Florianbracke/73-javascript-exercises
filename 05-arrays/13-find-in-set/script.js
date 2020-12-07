@@ -22,5 +22,13 @@
         "Lucas",
     ]);
 
+
+document.getElementById("run").addEventListener("click", function myFunction(){  
+    console.log(people.size);
+    if (people.has("Alexandre") == true)
+{alert("Alexandre is part of the French crew")} 
+    else {alert("Alexandre died horribly")}
+
+})
     // your code here
 })();

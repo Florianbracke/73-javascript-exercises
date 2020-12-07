@@ -28,7 +28,7 @@ function myFunction() {
     var text = " "
     var i;
 for (i= 0; i < 10; i++)
- {text += fruits[i] + fruits + " ";} 
+ {text += fruits[i] + " ";} 
 console.log(text)
 
 };

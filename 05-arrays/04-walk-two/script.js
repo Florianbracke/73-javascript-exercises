@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+function myFunction() {
 
     var fruits = [
         "apple",
@@ -28,4 +28,4 @@
 fruits.forEach(element => console.log(element))
     // your code here
 
-})();
+}

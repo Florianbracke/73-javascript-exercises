@@ -16,10 +16,9 @@
                 window.lib.getComments(post.id, function(error, comments) {
                     console.log(error, comments);
                 });
-                
+
             })
             })
-            
         })
     })
 ();
